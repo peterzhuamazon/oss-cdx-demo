@@ -470,23 +470,8 @@
   {
     "name": "Observability: OpenSearch Plugin",
     "repo": "https://github.com/opensearch-project/observability.git",
-    "roots": [
-      "opensearch-observability",
-      "dashboards-observability"
-    ],
-    "ignored-tags": [
-      "1.0.0.0",
-      "1.1.0.0",
-      "v1.12.0.0",
-      "v1.13.2.0",
-      "origin/2.5",
-      "origin/2.x"
-    ]
-  },
-  {
-    "name": "Observability: OpenSearch Plugin",
-    "repo": "https://github.com/opensearch-project/observability.git",
     "additional-branches": [
+      "origin/1.3",
       "origin/2.5",
       "origin/2.x"
     ],
@@ -512,6 +497,10 @@
       "v1.13.0.0",
       "v1.13.2.0"
     ]
+  },
+  {
+    "name": "Dashboards-Maps: OpenSearch Dashboards Plugin",
+    "repo": "https://github.com/opensearch-project/dashboards-maps.git"
   },
   {
     "name": "Benchmark",
@@ -605,7 +594,7 @@
   },
   {
     "name": "Security Analytics: OpenSearch Dashboards Plugin",
-    "repo": "https://github.com/opensearch-project/security-analytics.git"
+    "repo": "https://github.com/opensearch-project/security-analytics-dashboards-plugin.git"
   },
   {
     "name": "Search Relevance: OpenSearch Dashboards Plugin",
@@ -658,6 +647,10 @@
   {
     "name": "Maps: Maps Server for OpenSearch Dashboards Plugin dashboards-maps",
     "repo": "https://github.com/opensearch-project/maps.git"
+  },
+  {
+    "name": "OpenSearch Dashboards Functional Test: Integration Tests for OpenSearch Dashboards Plugins",
+    "repo": "https://github.com/opensearch-project/opensearch-dashboards-functional-test.git"
   },
   {
     "name": "Python Client ML: OpenSearch Python Client ML",
