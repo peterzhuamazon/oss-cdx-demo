@@ -473,6 +473,7 @@
     "additional-branches": [
       "origin/1.3",
       "origin/2.5",
+      "origin/2.6",
       "origin/2.x"
     ],
     "ignored-tags": [
